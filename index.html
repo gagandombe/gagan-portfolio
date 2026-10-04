@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Gagan Dombe, a second-year engineering student aspiring to become a Full Stack Developer."
+    />
+    <meta name="theme-color" content="#07111b" />
+    <meta property="og:title" content="Gagan Dombe | Aspiring Full Stack Developer" />
+    <meta
+      property="og:description"
+      content="Second-year engineering student passionate about Full Stack Development, projects, and hackathons."
+    />
+    <meta property="og:type" content="website" />
+    <title>Gagan Dombe | Aspiring Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwUEQp7ir3ZBk1d6sJ5P5xv7B9cS2yCOz9m8Y54Ew=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="site-bg"></div>
+
+    <header class="header">
+      <nav class="navbar container" aria-label="Main navigation">
+        <a href="#home" class="logo" aria-label="Go to home section">
+          <span class="logo-mark">GD</span>
+          <span class="logo-text">Gagan Dombe</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu">
+          <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#hackathons">Hackathons</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <button class="theme-toggle" aria-label="Toggle color theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="container hero-inner">
+          <div class="hero-content reveal">
+            <p class="eyebrow">Hello, I'm</p>
+            <h1>Hi, I'm <span class="gradient-text">Gagan Dombe</span></h1>
+            <h2 class="typing-wrap">
+              <span id="typed-text"></span>
+              <span class="cursor" aria-hidden="true"></span>
+            </h2>
+            <p class="hero-description">
+              Second-Year Engineering Student at Canara Engineering College,
+              passionate about Full Stack Development, problem solving, and
+              building modern web applications.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View My Projects</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+              <a
+                href="https://www.linkedin.com/in/gagan-dombe-a599533b6?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                target="_blank"
+                rel="noreferrer"
+                class="btn btn-linkedin"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+                LinkedIn
+              </a>
+            </div>
+
+            <div class="hero-meta">
+              <div class="meta-item">
+                <span class="meta-number" data-target="2">0</span>
+                <span class="meta-label">nd Year</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-number" data-target="100">0</span>
+                <span class="meta-label">% Learning</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-number" data-target="8">0</span>
+                <span class="meta-label">+ Goals</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="visual-card main-card">
+              <div class="code-window">
+                <div class="window-bar">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div class="code-content">
+                  <div class="code-line"><span class="token key">const</span> <span class="token name">developer</span> = {</div>
+                  <div class="code-line indent"><span class="token key">name</span>: <span class="token value">"Gagan Dombe"</span>,</div>
+                  <div class="code-line indent"><span class="token key">role</span>: <span class="token value">"Full Stack Developer"</span>,</div>
+                  <div class="code-line indent"><span class="token key">focus</span>: <span class="token value">["Web Apps", "Learning", "Problem Solving"]</span>,</div>
+                  <div class="code-line">};</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-one">
+              <i class="fa-solid fa-code"></i>
+              <span>Web Development</span>
+            </div>
+
+            <div class="floating-badge badge-two">
+              <i class="fa-solid fa-rocket"></i>
+              <span>Hackathons</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section section-alt">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About Me</p>
+            <h2>Student developer with a strong interest in building modern digital experiences.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-content reveal">
+              <p>
+                I am a second-year engineering student at Canara Engineering
+                College, and I am interested in Full Stack Development. I enjoy
+                learning new technologies, solving real-world problems, and
+                creating practical projects that improve user experience.
+              </p>
+              <p>
+                I am actively improving my programming and development skills,
+                exploring web technologies, and participating in hackathons and
+                technical activities. My goal is to build meaningful projects and
+                keep growing as a developer through continuous learning.
+              </p>
+            </div>
+
+            <div class="stats-grid reveal">
+              <div class="stat-card">
+                <span class="stat-number">2nd</span>
+                <span class="stat-label">Year</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">Student</span>
+                <span class="stat-label">Engineering</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">Full Stack</span>
+                <span class="stat-label">Interest</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">Hackathon</span>
+                <span class="stat-label">Participant</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Skills</p>
+            <h2>Areas I am developing and exploring.</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card reveal">
+              <h3>Frontend</h3>
+              <ul>
+                <li><span class="skill-dot"></span> HTML</li>
+                <li><span class="skill-dot"></span> CSS</li>
+                <li><span class="skill-dot"></span> JavaScript</li>
+              </ul>
+            </div>
+
+            <div class="skill-card reveal">
+              <h3>Backend</h3>
+              <ul>
+                <li><span class="skill-dot"></span> Node.js</li>
+                <li><span class="skill-dot"></span> Python</li>
+                <li><span class="skill-dot"></span> Database Management</li>
+              </ul>
+            </div>
+
+            <div class="skill-card reveal">
+              <h3>Programming</h3>
+              <ul>
+                <li><span class="skill-dot"></span> JavaScript</li>
+                <li><span class="skill-dot"></span> Python</li>
+                <li><span class="skill-dot"></span> Java</li>
+              </ul>
+            </div>
+
+            <div class="skill-card reveal">
+              <h3>Database</h3>
+              <ul>
+                <li><span class="skill-dot"></span> MySQL</li>
+                <li><span class="skill-dot"></span> PostgreSQL</li>
+                <li><span class="skill-dot"></span> MongoDB</li>
+              </ul>
+            </div>
+
+            <div class="skill-card reveal">
+              <h3>Tools</h3>
+              <ul>
+                <li><span class="skill-dot"></span> Git</li>
+                <li><span class="skill-dot"></span> GitHub</li>
+                <li><span class="skill-dot"></span> VS Code</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section section-alt">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Education</p>
+            <h2>My academic journey.</h2>
+          </div>
+
+          <div class="timeline education-timeline reveal">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">Current</span>
+                <h3>Canara Engineering College</h3>
+                <p>Second-Year Engineering Student</p>
+                <ul>
+                  <li>Coursework: Add your relevant coursework</li>
+                  <li>Focus: Engineering fundamentals and software development</li>
+                  <li>Academic journey: Add your academic progression details</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Experience & Activities</p>
+            <h2>Student activities and growth opportunities.</h2>
+          </div>
+
+          <div class="experience-grid">
+            <article class="experience-card reveal">
+              <div class="card-icon"><i class="fa-solid fa-trophy"></i></div>
+              <h3>Hackathon Participation</h3>
+              <p>
+                Participating in hackathons helps me explore problem solving,
+                teamwork, and rapid prototyping in a competitive environment.
+              </p>
+            </article>
+
+            <article class="experience-card reveal">
+              <div class="card-icon"><i class="fa-solid fa-microchip"></i></div>
+              <h3>Technical Activities</h3>
+              <p>
+                I engage with technical learning activities to strengthen my
+                understanding of coding, development workflows, and modern tools.
+              </p>
+            </article>
+
+            <article class="experience-card reveal">
+              <div class="card-icon"><i class="fa-solid fa-diagram-project"></i></div>
+              <h3>Project Development</h3>
+              <p>
+                I enjoy building practical projects that combine creativity,
+                logic, and user-focused design using modern web technologies.
+              </p>
+            </article>
+
+            <article class="experience-card reveal">
+              <div class="card-icon"><i class="fa-solid fa-book-open-reader"></i></div>
+              <h3>Continuous Learning</h3>
+              <p>
+                I continue learning by exploring new tools, structures, and
+                concepts that support my growth as a developer.
+              </p>
+            </article>
+
+            <article class="experience-card reveal">
+              <div class="card-icon"><i class="fa-solid fa-people-group"></i></div>
+              <h3>Team Collaboration</h3>
+              <p>
+                I value working with others, sharing ideas, and improving my
+                communication and teamwork while building projects together.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section section-alt">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Projects</p>
+            <h2>Selected work in progress and future ideas.</h2>
+          </div>
+
+          <div class="filter-bar reveal" aria-label="Project categories">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web-development">Web Development</button>
+            <button class="filter-btn" data-filter="full-stack">Full Stack</button>
+            <button class="filter-btn" data-filter="academic">Academic</button>
+            <button class="filter-btn" data-filter="other">Other</button>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card reveal" data-category="web-development">
+              <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" alt="Project thumbnail placeholder" />
+              </div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span class="project-tag">Web Development</span>
+                </div>
+                <h3>Project Name</h3>
+                <p>
+                  Replace this description with your project summary, goals, and
+                  what makes it useful or interesting.
+                </p>
+                <div class="project-tech">
+                  <span>Technology 1</span>
+                  <span>Technology 2</span>
+                </div>
+                <div class="project-actions">
+                  <a href="#" class="btn btn-small btn-secondary" aria-label="View project source code">GitHub</a>
+                  <a href="#" class="btn btn-small btn-primary" aria-label="View live demo">Live Demo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal" data-category="full-stack">
+              <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=80" alt="Project thumbnail placeholder" />
+              </div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span class="project-tag">Full Stack</span>
+                </div>
+                <h3>Project Name</h3>
+                <p>
+                  Add your completed or in-progress project details here with a
+                  short description and key technologies used.
+                </p>
+                <div class="project-tech">
+                  <span>Add tech</span>
+                  <span>Add tech</span>
+                </div>
+                <div class="project-actions">
+                  <a href="#" class="btn btn-small btn-secondary">GitHub</a>
+                  <a href="#" class="btn btn-small btn-primary">Live Demo</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal" data-category="academic">
+              <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" alt="Project thumbnail placeholder" />
+              </div>
+              <div class="project-body">
+                <div class="project-meta">
+                  <span class="project-tag">Academic</span>
+                </div>
+                <h3>Project Name</h3>
+                <p>
+                  Use this space to describe a college assignment, mini project,
+                  or learning-driven prototype created during your course.
+                </p>
+                <div class="project-tech">
+                  <span>Add tech</span>
+                  <span>Add tech</span>
+                </div>
+                <div class="project-actions">
+                  <a href="#" class="btn btn-small btn-secondary">GitHub</a>
+                  <a href="#" class="btn btn-small btn-primary">Live Demo</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="hackathons" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Hackathons</p>
+            <h2>Participation and learning through events.</h2>
+          </div>
+
+          <div class="hackathon-grid">
+            <article class="hackathon-card reveal">
+              <div class="hackathon-header">
+                <span class="hackathon-badge">Hackathon Name</span>
+                <span class="hackathon-date">Date: Add date</span>
+              </div>
+              <h3>Hackathon Name</h3>
+              <ul>
+                <li><strong>Problem Statement:</strong> Add your problem statement or theme.</li>
+                <li><strong>Solution:</strong> Add your idea or solution approach.</li>
+                <li><strong>Technologies:</strong> Add your tech stack.</li>
+                <li><strong>Team:</strong> Add team details or placeholder.</li>
+                <li><strong>Achievement:</strong> Add result, participation, or placeholder.</li>
+              </ul>
+            </article>
+
+            <article class="hackathon-card reveal">
+              <div class="hackathon-header">
+                <span class="hackathon-badge">Hackathon Name</span>
+                <span class="hackathon-date">Date: Add date</span>
+              </div>
+              <h3>Hackathon Name</h3>
+              <ul>
+                <li><strong>Problem Statement:</strong> Add your problem statement or theme.</li>
+                <li><strong>Solution:</strong> Add your idea or solution approach.</li>
+                <li><strong>Technologies:</strong> Add your tech stack.</li>
+                <li><strong>Team:</strong> Add team details or placeholder.</li>
+                <li><strong>Achievement:</strong> Add result, participation, or placeholder.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="section section-alt">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Certifications</p>
+            <h2>Professional learning milestones.</h2>
+          </div>
+
+          <div class="cert-grid">
+            <div class="cert-placeholder reveal">
+              <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+              <h3>Certifications will be added soon.</h3>
+              <p>Use this section to add certification name, organization, date, and certificate image later.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="achievements" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Achievements</p>
+            <h2>Milestones and accomplishments in progress.</h2>
+          </div>
+
+          <div class="achievement-grid">
+            <div class="achievement-box reveal">
+              <h3>Hackathons</h3>
+              <p>Add your hackathon participation highlights or placeholders.</p>
+            </div>
+            <div class="achievement-box reveal">
+              <h3>Academic Achievements</h3>
+              <p>Add your academic milestones, projects, or coursework recognition.</p>
+            </div>
+            <div class="achievement-box reveal">
+              <h3>Technical Achievements</h3>
+              <p>Add your technical learning wins, prototypes, or platform activities.</p>
+            </div>
+            <div class="achievement-box reveal">
+              <h3>Workshops</h3>
+              <p>Add workshop participation information or placeholders.</p>
+            </div>
+            <div class="achievement-box reveal">
+              <h3>Competitions</h3>
+              <p>Add coding, design, or technical competition details here.</p>
+            </div>
+            <div class="achievement-box reveal">
+              <h3>Other Accomplishments</h3>
+              <p>Add any relevant student achievements, leadership, or club activities.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="journey" class="section section-alt">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Learning Journey</p>
+            <h2>How my development journey is progressing.</h2>
+          </div>
+
+          <div class="timeline reveal">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">01</span>
+                <h3>Started Engineering Journey</h3>
+                <p>Begin your story here and add the details you want recruiters to know.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">02</span>
+                <h3>Started Learning Programming</h3>
+                <p>Add the concepts, languages, or milestones that helped build your foundation.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">03</span>
+                <h3>Explored Web Development</h3>
+                <p>Describe your early observations of frontend and web design concepts.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">04</span>
+                <h3>Started Learning Full Stack Development</h3>
+                <p>Add your development focus, learning resources, or practical exercises.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">05</span>
+                <h3>Participated in Hackathons</h3>
+                <p>Highlight how participation improved your problem-solving and teamwork.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">06</span>
+                <h3>Building Real-World Projects</h3>
+                <p>Describe your current focus on creating meaningful and practical solutions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">What I Do</p>
+            <h2>Areas of interest and development focus.</h2>
+          </div>
+
+          <div class="services-grid">
+            <div class="service-card reveal">
+              <i class="fa-solid fa-palette"></i>
+              <h3>Frontend Development</h3>
+            </div>
+            <div class="service-card reveal">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <h3>Responsive Web Design</h3>
+            </div>
+            <div class="service-card reveal">
+              <i class="fa-solid fa-window-maximize"></i>
+              <h3>Web Application Development</h3>
+            </div>
+            <div class="service-card reveal">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+              <h3>UI Implementation</h3>
+            </div>
+            <div class="service-card reveal">
+              <i class="fa-solid fa-code"></i>
+              <h3>Full Stack Development Learning</h3>
+            </div>
+            <div class="service-card reveal">
+              <i class="fa-solid fa-brain"></i>
+              <h3>Problem Solving</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-wrap">
+          <div class="contact-content reveal">
+            <p class="eyebrow">Contact</p>
+            <h2>Let's Build Something Together</h2>
+            <div class="contact-list">
+              <p>
+                <strong>Email:</strong>
+                <a href="mailto:gagandombe30@gmail.com">gagandombe30@gmail.com</a>
+              </p>
+              <p>
+                <strong>LinkedIn:</strong>
+                <a
+                  href="https://www.linkedin.com/in/gagan-dombe-a599533b6?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  LinkedIn Profile
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your email" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project inquiry" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+            <p class="form-note">
+              Note: This is a frontend-only contact form. It cannot securely send emails by itself, so it should be connected to a backend or email service later.
+            </p>
+            <p id="formStatus" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div>
+          <h3>Gagan Dombe</h3>
+          <p>Second-Year Engineering Student | Aspiring Full Stack Developer</p>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Connect</h4>
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/gagan-dombe-a599533b6?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer">LinkedIn</a>
+            </li>
+            <li><a href="mailto:gagandombe30@gmail.com">Email</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p>© <span id="currentYear"></span> Gagan Dombe. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Scroll back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
